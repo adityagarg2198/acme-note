@@ -3,7 +3,10 @@ import PlansCard from '../../components/PlansCard/PlansCard.component';
 import './Plans.css';
 const Plans = () => {
   return (
-    <section className='flex justify-center items-center flex-col px-20 py-24 w-full gap-40 bg-indigo-300'>
+    <section
+      role='region'
+      aria-label='Subscription Plans'
+      className='plans-section flex justify-center items-center flex-col px-20 py-24 w-full gap-40'>
       <Slide duration={1500} direction='right'>
         <h2 className='text-7xl text-white font-semibold'>Choose your plan</h2>
       </Slide>
@@ -45,7 +48,7 @@ const Plans = () => {
         />
       </section>
       <section className='flex flex-col gap-5 items-center'>
-        <p className='text-3xl italic text-white font-semibold'>
+        <p className='help-text italic text-white'>
           Have questions? We're here to help!
         </p>
         <div className='flex flex-row items-center gap-4'>
@@ -64,7 +67,7 @@ const Plans = () => {
             <path d='M3 9v6' />
             <path d='M6 9v6' />
           </svg>
-          <button className='text-xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-400 hover:scale-105 transition ease-in-out delay-0'>
+          <button className='text-3xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-500 hover:scale-105 transition ease-in-out delay-0'>
             Schedule a free consultation
           </button>
         </div>

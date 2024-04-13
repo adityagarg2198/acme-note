@@ -3,7 +3,10 @@ import ReviewCard from '../../components/ReviewCard/ReviewCard.component';
 import './Reviews.css';
 const Reviews = () => {
   return (
-    <section className='review-section flex justify-center items-center flex-col px-20  mt-24 py-24 w-full gap-24'>
+    <section
+      role='region'
+      aria-label='Customer Reviews'
+      className='review-section flex justify-center items-center flex-col px-20  mt-24 py-24 w-full gap-24'>
       <Zoom>
         <h2 className='text-7xl text-indigo-800 font-semibold'>
           Happy Customers, Happy Us

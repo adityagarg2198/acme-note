@@ -4,18 +4,18 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='flex flex-col'>
-      <section className='footer flex flex-col pt-10 gap-10 items-center bg-indigo-300'>
+      <section className='footer flex flex-col pt-10 gap-10 items-center bg-indigo-500'>
         <Fade duration={2000}>
           <h4 className='text-white text-8xl font-semibold'>
             Try Acme Note for free
           </h4>
         </Fade>
-        <button className='text-4xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-400 hover:scale-105 transition ease-in-out delay-0'>
+        <button className='text-4xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-500 hover:scale-105 transition ease-in-out delay-0'>
           Start Noting Now !
         </button>
       </section>
       <section className='flex justify-between items-center px-20 mb-20'>
-        <div className='rounded-full border-indigo-400 border-2 p-3 bg-indigo-400'>
+        <div className='rounded-full border-indigo-400 border-2 p-3 bg-indigo-500'>
           <svg
             width='50'
             height='50'

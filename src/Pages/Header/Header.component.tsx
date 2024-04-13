@@ -2,7 +2,9 @@ const Header = () => {
   return (
     <header className='h-52 py-8 px-20 sticky flex'>
       <section className='flex items-center cursor-pointer gap-3'>
-        <div className='rounded-full border-indigo-400 border-2 p-2 bg-indigo-400'>
+        <figure
+          className='rounded-full border-indigo-400 border-2 p-2 bg-indigo-500'
+          aria-labelledby='logo'>
           <svg
             width='30'
             height='30'
@@ -59,8 +61,9 @@ const Header = () => {
               strokeLinejoin='round'
             />
           </svg>
-        </div>
-        <p className='text-5xl italic text-indigo-400 font-bold'>Acme Note</p>
+        </figure>
+
+        <p className='text-5xl italic text-indigo-500 font-bold'>Acme Note</p>
       </section>
     </header>
   );

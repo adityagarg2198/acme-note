@@ -3,7 +3,10 @@ import FeatureCard from '../../components/FeatureCard/FeatureCard.component';
 
 const Features = () => {
   return (
-    <section className='flex justify-center items-center flex-col px-20 mt-24 w-full gap-24'>
+    <section
+      role='region'
+      aria-label='Features'
+      className='flex justify-center items-center flex-col px-20 mt-24 w-full gap-24'>
       <Slide direction='up'>
         <h2 className='text-7xl text-indigo-900 font-semibold'>
           Everything You Need in One Place
