@@ -6,13 +6,13 @@ const Reviews = () => {
     <section
       role='region'
       aria-label='Customer Reviews'
-      className='review-section flex justify-center items-center flex-col px-20  mt-24 py-24 w-full gap-24'>
+      className='review-section flex justify-center items-center flex-col px-10 md:px-20 md:mt-24 py-24 w-full gap-16 md:gap-24'>
       <Zoom>
-        <h2 className='text-7xl text-indigo-800 font-semibold'>
+        <h2 className='text-5xl text-center md:text-7xl text-indigo-800 font-semibold'>
           Happy Customers, Happy Us
         </h2>
       </Zoom>
-      <section className='flex gap-28 mt-20 flex-wrap justify-center'>
+      <section className='flex gap-28 mt-5 md:mt-20 flex-wrap justify-center'>
         <ReviewCard
           reviewer='Maya Noteworthy'
           reviewContent={`This app has revolutionized my note-taking! It's simple yet powerful`}

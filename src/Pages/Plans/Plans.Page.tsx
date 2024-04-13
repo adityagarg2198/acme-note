@@ -6,9 +6,11 @@ const Plans = () => {
     <section
       role='region'
       aria-label='Subscription Plans'
-      className='plans-section flex justify-center items-center flex-col px-20 py-24 w-full gap-40'>
+      className='plans-section flex justify-center items-center flex-col px-10 md:px-20 py-24 w-full gap-20 md:gap-40'>
       <Slide duration={1500} direction='right'>
-        <h2 className='text-7xl text-white font-semibold'>Choose your plan</h2>
+        <h2 className='text-5xl md:text-7xl text-white font-semibold'>
+          Choose your plan
+        </h2>
       </Slide>
       <section className='flex gap-28 flex-wrap justify-center'>
         <PlansCard
@@ -47,7 +49,7 @@ const Plans = () => {
           price='99/month'
         />
       </section>
-      <section className='flex flex-col gap-5 items-center'>
+      <section className='flex flex-col gap-5 mt-10 items-center'>
         <p className='help-text italic text-white'>
           Have questions? We're here to help!
         </p>
@@ -67,7 +69,7 @@ const Plans = () => {
             <path d='M3 9v6' />
             <path d='M6 9v6' />
           </svg>
-          <button className='text-3xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-500 hover:scale-105 transition ease-in-out delay-0'>
+          <button className='text-lg md:text-3xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-500 hover:scale-105 transition ease-in-out delay-0'>
             Schedule a free consultation
           </button>
         </div>

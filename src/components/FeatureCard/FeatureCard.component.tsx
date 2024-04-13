@@ -8,13 +8,13 @@ const FeatureCard: FC<FeatureCardProps> = ({ body, heading, icon }) => {
       <div className='flex max-w-lg gap-4 flex-col'>
         <figure
           aria-labelledby={heading}
-          className='bg-white w-28 rounded-full h-28 drop-shadow-xl flex justify-center items-center cursor-pointer'>
+          className='bg-white w-20 h-20 md:w-28 rounded-full md:h-28 drop-shadow-xl flex justify-center items-center cursor-pointer'>
           {icon}
         </figure>
-        <h3 className='text-indigo-900 mt-8 font-extrabold text-3xl'>
+        <h3 className='text-indigo-900 mt-4 md:mt-8 font-extrabold text-xl md:text-3xl'>
           {heading}
         </h3>
-        <p className='text-indigo-950 text-2xl'>{body}</p>
+        <p className='text-indigo-950 text-lg md:text-xl'>{body}</p>
       </div>
     </AttentionSeeker>
   );

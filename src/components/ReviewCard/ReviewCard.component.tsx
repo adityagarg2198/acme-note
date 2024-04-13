@@ -6,11 +6,13 @@ import { Fade } from 'react-awesome-reveal';
 const ReviewCard: FC<ReviewCardProps> = ({ reviewContent, reviewer }) => {
   return (
     <Fade direction='up' duration={1200}>
-      <div className='review-card cursor-pointer rounded-2xl flex shadow-l h-64 justify-between bg-white max-w-lg p-10 gap-2 flex-col hover:scale-110 transition ease-in-out delay-75'>
-        <p className='text-indigo-500 font-semibold text-2xl'>
+      <div className='review-card cursor-pointer rounded-2xl flex shadow-l h-56 md:h-64 justify-between bg-white max-w-lg p-10 gap-2 flex-col hover:scale-110 transition ease-in-out delay-75'>
+        <p className='text-indigo-500 font-semibold text-xl md:text-2xl text-justify '>
           {reviewContent}
         </p>
-        <h3 className='text-indigo-500 font-semibold text-4xl'>{reviewer}</h3>
+        <h3 className='text-indigo-500 font-semibold text-2xl md:text-4xl'>
+          {reviewer}
+        </h3>
       </div>
     </Fade>
   );

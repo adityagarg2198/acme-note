@@ -4,17 +4,17 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='flex flex-col'>
-      <section className='footer flex flex-col pt-10 gap-10 items-center bg-indigo-500'>
+      <section className='footer flex flex-col px-10 pt-10 gap-10 items-center bg-indigo-500'>
         <Fade duration={2000}>
-          <h4 className='text-white text-8xl font-semibold'>
+          <h4 className='text-white text-5xl md:text-7xl font-semibold'>
             Try Acme Note for free
           </h4>
         </Fade>
-        <button className='text-4xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-500 hover:scale-105 transition ease-in-out delay-0'>
+        <button className='text-2xl md:text-4xl w-fit px-8 py-4 rounded-2xl bg-white font-bold text-indigo-500 hover:scale-105 transition ease-in-out delay-0'>
           Start Noting Now !
         </button>
       </section>
-      <section className='flex justify-between items-center px-20 mb-20'>
+      <section className='flex justify-between items-center px-10 md:px-20 mb-10 md:mb-20'>
         <div className='rounded-full border-indigo-400 border-2 p-3 bg-indigo-500'>
           <svg
             width='50'
@@ -74,12 +74,10 @@ const Footer = () => {
           </svg>
         </div>
         <AttentionSeeker effect='jello'>
-          <div className='flex gap-20 items-center'>
+          <div className='flex md:gap-10 items-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='icon icon-tabler icon-tabler-brand-facebook stroke-indigo-400'
-              width='40'
-              height='40'
+              className='icon icon-tabler icon-tabler-brand-facebook stroke-indigo-400 w-20 h-20'
               viewBox='0 0 24 24'
               strokeWidth='1.8'
               fill='none'
@@ -90,9 +88,7 @@ const Footer = () => {
             </svg>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='icon icon-tabler icon-tabler-brand-instagram stroke-indigo-400'
-              width='44'
-              height='44'
+              className='icon icon-tabler icon-tabler-brand-instagram stroke-indigo-400 w-20 h-20'
               viewBox='0 0 24 24'
               strokeWidth='1.8'
               fill='none'
@@ -105,9 +101,7 @@ const Footer = () => {
             </svg>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='icon icon-tabler icon-tabler-brand-x stroke-indigo-400'
-              width='40'
-              height='40'
+              className='icon icon-tabler icon-tabler-brand-x stroke-indigo-400 w-20 h-20'
               viewBox='0 0 24 24'
               strokeWidth='1.8'
               fill='none'

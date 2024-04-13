@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <header className='h-52 py-8 px-20 sticky flex'>
-      <section className='flex items-center cursor-pointer gap-3'>
+    <header className='h-52 py-8 px-20 flex justify-center'>
+      <section className='flex items-center cursor-pointer gap-2'>
         <figure
           className='rounded-full border-indigo-400 border-2 p-2 bg-indigo-500'
           aria-labelledby='logo'>
@@ -62,8 +62,9 @@ const Header = () => {
             />
           </svg>
         </figure>
-
-        <p className='text-5xl italic text-indigo-500 font-bold'>Acme Note</p>
+        <p className='text-4xl md:text-5xl italic text-indigo-500 font-bold'>
+          Acme Note
+        </p>
       </section>
     </header>
   );

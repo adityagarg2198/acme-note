@@ -6,7 +6,7 @@ import { AttentionSeeker } from 'react-awesome-reveal';
 const PlansCard: FC<PlansCardProps> = ({ features, title, price }) => {
   return (
     <AttentionSeeker effect='rubberBand' duration={1500}>
-      <div className='plans-card cursor-pointer rounded-2xl h-full flex max-w-l p-10 gap-1 flex-col hover:scale-110 transition ease-in-out delay-0'>
+      <div className='plans-card cursor-pointer rounded-2xl h-full flex w-full md:max-w-l p-10 gap-1 flex-col hover:scale-110 transition ease-in-out delay-0'>
         <div className='flex flex-col h-36 gap-8'>
           <h3 className='text-6xl font-semibold my-0 mx-auto'>{title}</h3>
           <div className='flex flex-row items-center gap-1'>
