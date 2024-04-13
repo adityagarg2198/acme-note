@@ -5,7 +5,7 @@ import { AttentionSeeker } from 'react-awesome-reveal';
 const FeatureCard: FC<FeatureCardProps> = ({ body, heading, icon }) => {
   return (
     <AttentionSeeker effect='pulse' duration={1300}>
-      <div className='flex max-w-lg gap-4 flex-col'>
+      <div className='flex md:max-w-md  max-w-lg gap-4 flex-col'>
         <figure
           aria-labelledby={heading}
           className='bg-white w-20 h-20 md:w-28 rounded-full md:h-28 drop-shadow-xl flex justify-center items-center cursor-pointer'>

@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className='h-52 py-8 px-20 flex justify-center'>
+    <header className='h-52 py-8 px-20 flex justify-center sm:justify-start'>
       <section className='flex items-center cursor-pointer gap-2'>
         <figure
           className='rounded-full border-indigo-400 border-2 p-2 bg-indigo-500'
@@ -62,7 +62,7 @@ const Header = () => {
             />
           </svg>
         </figure>
-        <p className='text-4xl md:text-5xl italic text-indigo-500 font-bold'>
+        <p className='text-4xl sm:text-6xl italic text-indigo-500 font-bold'>
           Acme Note
         </p>
       </section>
